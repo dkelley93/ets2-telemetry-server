@@ -265,6 +265,11 @@ namespace Funbit.Ets.Telemetry.Server.Data
         /// Example: 0.4923077
         /// </summary>
         float FuelAverageConsumption { get; }
+        /// <summary>
+        /// Estimated range of truck with current amount of fuel in km.
+        /// Example: 1367.894
+        /// </summary>
+        float FuelRange { get; }
 
         /// <summary>
         /// Steering received from input (-1;1).

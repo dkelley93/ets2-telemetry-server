@@ -187,6 +187,7 @@ namespace Funbit.Ets.Telemetry.Server.Data
         public float Fuel => _rawData.Struct.fuel;
         public float FuelCapacity => _rawData.Struct.fuelCapacity;
         public float FuelAverageConsumption => _rawData.Struct.fuelAvgConsumption;
+        public float FuelRange => _rawData.Struct.fuelRange;
         public float FuelWarningFactor => _rawData.Struct.fuelWarningFactor;
         public bool FuelWarningOn => _rawData.Struct.fuelWarning != 0;
         public float WearEngine => _rawData.Struct.wearEngine;
